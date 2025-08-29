@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(61, 58, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 450px;
+    width: 325px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.storyli {
+    height: 80px;
+    background-color: rgb(155, 154, 154);
+    padding: 15px 15px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+
+.storyli::-webkit-scrollbar {
+    display: none;
+}
+
+.story {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px solid red;
+    overflow: hidden;
+    display: inline-block;
+    margin: 3px;
+}
+
+.story img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#screen {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: brown;
+    display: none;
+    background-size: cover;
+    background-position: center;
+
+}

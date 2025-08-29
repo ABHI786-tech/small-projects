@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(228, 176, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.container{
+    background-color: rgb(154, 154, 155);
+    height: 400px;
+    width: 375px;
+    border-radius: 10px;
+    padding: 55px 15px;
+    position: relative;
+    overflow: hidden;
+
+}
+.images img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.icon i{
+    font-size: 45px;
+    color: white;
+}
+#heart{
+    color: #fff;
+    font-size: 70px;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    opacity: 0.8;
+    transition: all ease 0.4s;
+}

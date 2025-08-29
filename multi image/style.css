@@ -1,0 +1,35 @@
+
+body{
+   background-color: rgb(72, 71, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+.box{
+    height: 120px;
+    width: 100%;
+    border-bottom: 2px solid white;;
+}
+.box h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 1
+}
+.box img{
+    
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+    transition: all linear 0.3s;
+    transform: translate(-50%, -50%);
+    ;
+}
